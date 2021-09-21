@@ -7,9 +7,9 @@ const planets = ["Mars", "Venus", "Jupiter", "Earth", "Saturn", "Neptune"];
  * 1) Create the mapping function and use it to generate a new array of
  * planets in html called planetsInHTML
  */
-let planetsInHTML = planets.map((planets, i) => (
-	<li key={i} className="list-group-item">
-		{planets}
+let planetsInHTML = planets.map((item, i) => (
+	<li key={i} class="list-group-item">
+		{item}
 	</li>
 ));
 
